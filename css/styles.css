@@ -169,6 +169,8 @@ ul.mail-and-tel {
   letter-spacing: 0.02em;
 
   color: var(--title-color);
+
+  transition: color 250ms var(--animation-timer);
 }
 
 ul.site-nav li:not(:last-child) {
@@ -262,6 +264,8 @@ ul.mail-and-tel li:not(:last-child) {
   color: var(--main-white-color);
   background-color: var(--hero-button-bg);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms var(--animation-timer);
 }
 
 .hero-button:focus,
@@ -433,6 +437,8 @@ ul.img-list li:not(:last-child) {
   height: 44px;
 
   background-color: var(--main-white-color);
+
+  transition: background-color 250ms var(--animation-timer);
 }
 
 .personal-page:hover,
@@ -442,6 +448,7 @@ ul.img-list li:not(:last-child) {
 
 .person-link {
   fill: #afb1b8;
+  transition: fill 250ms var(--animation-timer);
 }
 
 .personal-page:hover .person-link,
@@ -495,6 +502,8 @@ li.card:not(:last-child) {
 
   border-radius: 4px;
   border: 1px solid #afb1b8;
+
+  transition: border 250ms var(--animation-timer);
 }
 
 .client:hover,
@@ -504,6 +513,8 @@ li.card:not(:last-child) {
 
 .logo {
   fill: #afb1b8;
+
+  transition: fill 250ms var(--animation-timer);
 }
 
 .client:hover .logo,
@@ -545,6 +556,8 @@ li.card:not(:last-child) {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms var(--animation-timer);
 }
 
 .address .link-address {
@@ -590,6 +603,8 @@ li.card:not(:last-child) {
   border-radius: 50%;
 
   background: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms var(--animation-timer);
 }
 
 .site-messanger:hover,
@@ -627,6 +642,10 @@ ul.button-list {
   text-align: center;
 
   background-color: var(--personal-bg);
+
+  transition: color 250ms var(--animation-timer),
+    background-color 250ms var(--animation-timer),
+    box-shadow 250ms var(--animation-timer);
 }
 
 .button-list li:not(:last-child) {
@@ -677,6 +696,8 @@ ul.button-list {
 
 .filter-card a {
   display: block;
+
+  transition: box-shadow 250ms var(--animation-timer);
 }
 
 .filter-card a:hover,
@@ -791,7 +812,8 @@ ul.button-list {
   background: var(--main-white-color);
 
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms var(--animation-timer);
+  transition: transform 250ms var(--animation-timer),
+    scale 250ms var(--animation-timer);
 }
 
 .modal-button {
