@@ -207,11 +207,6 @@ ul.mail-and-tel li:not(:last-child) {
   color: var(--accent-color);
 }
 
-.link:hover .contact-icon,
-.link:focus .contact-icon {
-  fill: var(--accent-color);
-}
-
 /*hero*/
 
 .hero {
